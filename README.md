@@ -10,8 +10,6 @@ Una API REST para gestionar productos, categorías, usuarios y ventas, construid
 
 > ⚠️ La API está alojada en un servicio gratuito y puede tardar entre 30 y 60 segundos en responder en la primera petición tras un período de inactividad.
 
-> ⚠️ La API está alojada en un servicio gratuito y puede tardar entre 30 y 60 segundos en responder en la primera petición tras un período de inactividad.
-
 ## Descripción
 
 GestionaPro es un sistema de gestión para pequeños negocios que permite a un **Administrador** gestionar productos, categorías, usuarios y ventas, mientras que un **Usuario** regular puede explorar el catálogo, realizar compras y ver su propio historial de compras. El acceso está controlado de principio a fin mediante autenticación JWT y autorización basada en roles.
