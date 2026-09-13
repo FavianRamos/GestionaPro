@@ -62,18 +62,6 @@ GestionaPro es un sistema de gestión para pequeños negocios que permite a un *
 
 El proyecto está organizado **por funcionalidad/entidad** en vez de por capa técnica — cada dominio (`product`, `category`, `user`, `sale`, `auth`, `report`, `security`, `config`, `exception`) contiene su propia entidad, DTOs, repositorio, servicio (interfaz + implementación) y controlador.
 
-com.example.projectProduct
-├── auth # Login/registro, generación de JWT
-├── category # CRUD de categorías
-├── config # Configuración de seguridad y Swagger
-├── exception # Manejo global de excepciones
-├── product # CRUD de productos, búsqueda, stock, reporte de stock bajo
-├── report # Reportes de ventas, ingresos, top productos, categorías
-├── sale # Venta/DetalleVenta, lógica de checkout
-├── security # Filtro JWT, reglas de acceso por rol
-└── user # Gestión de usuarios, control de rol y estado
-
-
 Decisiones de diseño clave:
 - **DTOs para cada entidad** — las entidades nunca se exponen directamente a través de la API.
 - **Interfaz + implementación** para los servicios (ej. `ProductService` / `ProductServiceImpl`), manteniendo la lógica de negocio flexible y fácil de testear.
