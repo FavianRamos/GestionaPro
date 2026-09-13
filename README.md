@@ -3,12 +3,14 @@
 Una API REST para gestionar productos, categorías, usuarios y ventas, construida con **Spring Boot** y asegurada con **autenticación JWT** y **control de acceso por roles**.
 
 🔗 **API en producción:** [https://gestionapro.onrender.com](https://gestionapro.onrender.com)
+
 📄 **Documentación (Swagger):** [https://gestionapro.onrender.com/swagger-ui/index.html](https://gestionapro.onrender.com/swagger-ui/index.html)
+
 🎨 **Repositorio del frontend:** [gestionapro-frontend](https://github.com/FavianRamos/gestionapro-frontend)
 
 > ⚠️ La API está alojada en un servicio gratuito y puede tardar entre 30 y 60 segundos en responder en la primera petición tras un período de inactividad.
 
----
+> ⚠️ La API está alojada en un servicio gratuito y puede tardar entre 30 y 60 segundos en responder en la primera petición tras un período de inactividad.
 
 ## Descripción
 
